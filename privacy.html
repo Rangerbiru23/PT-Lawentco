@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - PT LAWENTCO</title>
+    <meta name="description" content="Kebijakan Privasi PT LAWENTCO - Konstruksi Gedung Industri & Meta Ads Specialist">
+    <meta name="keywords" content="privacy policy, PT LAWENTCO, kebijakan privasi, konstruksi, meta ads">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary-color: #FF6B35;
+            --secondary-color: #004E89;
+            --accent-color: #FFD23F;
+            --dark-color: #1A1A2E;
+            --light-color: #F7F7F7;
+            --gradient-primary: linear-gradient(135deg, #FF6B35 0%, #F7931E 100%);
+            --gradient-secondary: linear-gradient(135deg, #004E89 0%, #0099CC 100%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+        }
+
+        /* Navigation */
+        .navbar {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand {
+            font-weight: 800;
+            font-size: 1.8rem;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .nav-link {
+            color: var(--dark-color) !important;
+            font-weight: 600;
+            margin: 0 10px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: var(--primary-color) !important;
+        }
+
+        /* Legal Page Styles */
+        .legal-page {
+            padding: 120px 0 80px;
+            min-height: 100vh;
+        }
+
+        .legal-content {
+            background: white;
+            padding: 60px;
+            border-radius: 20px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .legal-content h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 2rem;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-align: center;
+        }
+
+        .legal-content h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-top: 3rem;
+            margin-bottom: 1.5rem;
+            color: var(--secondary-color);
+            border-bottom: 3px solid var(--accent-color);
+            padding-bottom: 10px;
+        }
+
+        .legal-content h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+
+        .legal-content p {
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+            color: #555;
+            text-align: justify;
+        }
+
+        .legal-content ul {
+            margin-bottom: 1.5rem;
+            padding-left: 30px;
+        }
+
+        .legal-content li {
+            margin-bottom: 0.8rem;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin: 2rem 0;
+        }
+
+        .highlight-box h3 {
+            color: white;
+            margin-bottom: 1rem;
+        }
+
+        .contact-info {
+            background: var(--gradient-secondary);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 3rem;
+        }
+
+        .contact-info h3 {
+            color: white;
+            margin-bottom: 1.5rem;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .contact-icon {
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--dark-color);
+            color: white;
+            padding: 40px 0 20px;
+            margin-top: 80px;
+        }
+
+        .footer-brand {
+            font-size: 1.5rem;
+            font-weight: 800;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 15px;
+        }
+
+        .footer-links {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-links li {
+            margin-bottom: 8px;
+        }
+
+        .footer-links a {
+            color: #ccc;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--primary-color);
+        }
+
+        /* Back to Home Button */
+        .back-home {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: var(--gradient-primary);
+            color: white;
+            padding: 15px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            box-shadow: 0 10px 30px rgba(255, 107, 53, 0.3);
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+
+        .back-home:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(255, 107, 53, 0.4);
+            color: white;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .legal-content {
+                padding: 30px;
+                margin: 20px;
+            }
+            
+            .legal-content h1 {
+                font-size: 2rem;
+            }
+            
+            .legal-content h2 {
+                font-size: 1.5rem;
+            }
+            
+            .back-home {
+                bottom: 20px;
+                right: 20px;
+                padding: 12px 20px;
+                font-size: 0.9rem;
+            }
+        }
+
+        /* Animation */
+        .fade-in {
+            animation: fadeIn 0.8s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <strong>PT LAWENTCO</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#services">Layanan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact">Kontak</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="privacy.html">Privacy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="terms.html">Terms</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Legal Content -->
+    <section class="legal-page">
+        <div class="container">
+            <div class="legal-content fade-in">
+                <h1>Kebijakan Privasi PT LAWENTCO</h1>
+                <p><strong>Tanggal Efektif:</strong> 1 Januari 2024</p>
+                <p><strong>Pembaruan Terakhir:</strong> 1 Januari 2024</p>
+                
+                <p>Selamat datang di PT LAWENTCO. Kami sangat menghargai privasi Anda dan berkomitmen untuk melindungi data pribadi Anda. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi pribadi Anda ketika Anda menggunakan layanan kami, baik itu layanan konstruksi gedung industri maupun layanan Meta Ads kami.</p>
+
+                <div class="highlight-box">
+                    <h3><i class="fas fa-shield-alt"></i> Komitmen Kami</h3>
+                    <p>PT LAWENTCO berkomitmen untuk melindungi privasi dan keamanan data pribadi Anda sesuai dengan peraturan perundang-undangan yang berlaku di Indonesia, termasuk Undang-Undang Informasi dan Transaksi Elektronik (ITE) dan Peraturan Pemerintah tentang Perlindungan Data Pribadi.</p>
+                </div>
+
+                <h2>1. Informasi yang Kami Kumpulkan</h2>
+                
+                <h3>1.1 Informasi Pribadi yang Anda Berikan</h3>
+                <p>Kami dapat mengumpulkan informasi pribadi berikut ketika Anda berinteraksi dengan kami:</p>
+                <ul>
+                    <li><strong>Nama lengkap</strong> dan informasi identitas lainnya</li>
+                    <li><strong>Alamat email</strong> dan nomor telepon</li>
+                    <li><strong>Alamat fisik</strong> perusahaan atau proyek</li>
+                    <li><strong>Informasi perusahaan</strong> (nama perusahaan, jabatan, dll.)</li>
+                    <li><strong>Informasi proyek</strong> (jenis konstruksi, anggaran, timeline)</li>
+                    <li><strong>Informasi pembayaran</strong> untuk transaksi layanan</li>
+                    <li><strong>Data kampanye Meta Ads</strong> (target audience, budget, tujuan marketing)</li>
+                </ul>
+
+                <h3>1.2 Informasi yang Kami Kumpulkan Secara Otomatis</h3>
+                <p>Ketika Anda mengunjungi website kami, kami dapat mengumpulkan:</p>
+                <ul>
+                    <li><strong>Alamat IP</strong> dan informasi lokasi</li>
+                    <li><strong>Jenis browser</strong> dan perangkat yang digunakan</li>
+                    <li><strong>Informasi penggunaan</strong> website (halaman yang dikunjungi, waktu kunjungan)</li>
+                    <li><strong>Cookies</strong> dan teknologi pelacakan lainnya</li>
+                </ul>
+
+                <h2>2. Cara Kami Menggunakan Informasi Anda</h2>
+                <p>Kami menggunakan informasi pribadi Anda untuk:</p>
+                <ul>
+                    <li><strong>Menyediakan layanan</strong> konstruksi dan Meta Ads yang Anda minta</li>
+                    <li><strong>Mengkomunikasikan</strong> dengan Anda mengenai proyek dan layanan</li>
+                    <li><strong>Mengirim penawaran</strong> dan informasi produk yang relevan</li>
+                    <li><strong>Memproses pembayaran</strong> dan transaksi keuangan</li>
+                    <li><strong>Meningkatkan layanan</strong> kami berdasarkan feedback Anda</li>
+                    <li><strong>Memenuhi kewajiban hukum</strong> dan peraturan yang berlaku</li>
+                    <li><strong>Melakukan analisis</strong> untuk pengembangan bisnis</li>
+                </ul>
+
+                <h2>3. Berbagi Informasi dengan Pihak Ketiga</h2>
+                <p>Kami tidak menjual, menyewakan, atau memperdagangkan informasi pribadi Anda. Namun, kami dapat membagikan informasi Anda dengan:</p>
+                <ul>
+                    <li><strong>Partner Konstruksi</strong> yang terlibat dalam proyek Anda</li>
+                    <li><strong>Meta Platforms</strong> untuk keperluan kampanye iklan</li>
+                    <li><strong>Penyedia layanan pembayaran</strong> untuk memproses transaksi</li>
+                    <li><strong>Otoritas hukum</strong> jika diwajibkan oleh perundang-undangan</li>
+                    <li><strong>Konsultan hukum</strong> untuk keperluan kepatuhan regulasi</li>
+                </ul>
+
+                <h2>4. Keamanan Data</h2>
+                <p>PT LAWENTCO mengimplementasikan berbagai langkah keamanan untuk melindungi informasi pribadi Anda:</p>
+                <ul>
+                    <li><strong>Enkripsi data</strong> selama transmisi dan penyimpanan</li>
+                    <li><strong>Akses terbatas</strong> hanya untuk authorized personnel</li>
+                    <li><strong>Backup data</strong> secara teratur dan aman</li>
+                    <li><strong>Update sistem</strong> keamanan secara berkala</li>
+                    <li><strong>Training karyawan</strong> mengenai keamanan data</li>
+                </ul>
+
+                <h2>5. Hak Anda sebagai Pengguna</h2>
+                <p>Sebagai pemilik data, Anda memiliki hak untuk:</p>
+                <ul>
+                    <li><strong>Mengakses</strong> informasi pribadi yang kami simpan tentang Anda</li>
+                    <li><strong>Memperbaiki</strong> data yang tidak akurat atau tidak lengkap</li>
+                    <li><strong>Menghapus</strong> data pribadi Anda (dengan batasan tertentu)</li>
+                    <li><strong>Menolak</strong> penggunaan data untuk tujuan marketing</li>
+                    <li><strong>Memindahkan</strong> data Anda ke layanan lain</li>
+                    <li><strong>Mengajukan keluhan</strong> kepada otoritas perlindungan data</li>
+                </ul>
+
+                <h2>6. Cookies dan Teknologi Pelacakan</h2>
+                <p>Website kami menggunakan cookies untuk:</p>
+                <ul>
+                    <li><strong>Mengingat preferensi</strong> Anda saat mengunjungi website</li>
+                    <li><strong>Menganalisis traffic</strong> dan penggunaan website</li>
+                    <li><strong>Mempersonalisasi</strong> pengalaman pengguna</li>
+                    <li><strong>Menampilkan iklan</strong> yang relevan melalui Meta Ads</li>
+                </ul>
+                <p>Anda dapat mengatur preferensi cookie melalui pengaturan browser Anda.</p>
+
+                <h2>7. Penyimpanan Data</h2>
+                <p>Informasi pribadi Anda akan disimpan selama:</p>
+                <ul>
+                    <li><strong>Masa aktif proyek</strong> konstruksi atau kampanye Meta Ads</li>
+                    <li><strong>Periode retensi</strong> yang diwajibkan oleh hukum (minimal 5 tahun)</li>
+                    <li><strong>Seperlunya</strong> untuk memenuhi tujuan pengumpulan data</li>
+                </ul>
+
+                <h2>8. Privasi Anak-Anak</h2>
+                <p>Layanan kami tidak ditujukan untuk anak-anak di bawah 18 tahun. Kami tidak sengaja mengumpulkan informasi pribadi dari anak-anak. Jika kami mengetahui telah mengumpulkan informasi dari anak di bawah 18 tahun, kami akan mengambil langkah untuk menghapus informasi tersebut segera.</p>
+
+                <h2>9. Perubahan Kebijakan Privasi</h2>
+                <p>PT LAWENTCO dapat memperbarui kebijakan privasi ini dari waktu ke waktu. Perubahan akan diberitahukan melalui:</p>
+                <ul>
+                    <li><strong>Email</strong> ke alamat yang terdaftar</li>
+                    <li><strong>Notifikasi</strong> di website kami</li>
+                    <li><strong>Komunikasi langsung</strong> untuk klien aktif</li>
+                </ul>
+
+                <h2>10. Kontak dan Pertanyaan</h2>
+                <p>Jika Anda memiliki pertanyaan atau keluhan mengenai kebijakan privasi kami, silakan hubungi:</p>
+                
+                <div class="contact-info">
+                    <h3><i class="fas fa-envelope"></i> Hubungi Tim Privasi Kami</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div>
+                            <strong>PT LAWENTCO</strong><br>
+                            JL. KEPUDANG TIMUR, Desa/Kelurahan Mertasinga<br>
+                            Kec. Cilacap Utara, Kab. Cilacap<br>
+                            Provinsi Jawa Tengah
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <strong>Telepon:</strong> 0823-8246-6214
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <strong>Email:</strong><br>
+                            privacy@ptlawentco.co.id<br>
+                            info@ptlawentco.co.id
+                        </div>
+                    </div>
+                </div>
+
+                <p class="text-center mt-4">
+                    <em>Dengan menggunakan layanan PT LAWENTCO, Anda menyatakan telah membaca, memahami, dan menyetujui Kebijakan Privasi ini.</em>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h3 class="footer-brand">PT LAWENTCO</h3>
+                    <p>Spesialis konstruksi gedung industri dengan solusi Meta Ads yang inovatif untuk pertumbuhan bisnis Anda.</p>
+                </div>
+                
+                <div class="col-lg-2 mb-4">
+                    <h5>Layanan</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html#services">Konstruksi Industri</a></li>
+                        <li><a href="index.html#services">Meta Ads</a></li>
+                        <li><a href="index.html#services">Digital Marketing</a></li>
+                        <li><a href="index.html#services">Konsultasi</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-2 mb-4">
+                    <h5>Perusahaan</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html#about">Tentang Kami</a></li>
+                        <li><a href="index.html#portfolio">Portfolio</a></li>
+                        <li><a href="index.html#contact">Kontak</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-4 mb-4">
+                    <h5>Informasi Legal</h5>
+                    <p>Kebijakan Privasi ini merupakan bagian dari komitmen kami terhadap transparansi dan perlindungan data pribadi klien.</p>
+                </div>
+            </div>
+            
+            <hr class="my-4" style="border-color: rgba(255,255,255,0.1);">
+            
+            <div class="text-center">
+                <p>&copy; 2024 PT LAWENTCO. All rights reserved. | Konstruksi Gedung Industri & Meta Ads Specialist</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Home Button -->
+    <a href="index.html" class="back-home">
+        <i class="fas fa-home"></i> Kembali ke Beranda
+    </a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add fade-in animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections
+        document.querySelectorAll('.legal-content h2, .legal-content h3, .legal-content p').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
